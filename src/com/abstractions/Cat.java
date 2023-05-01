@@ -1,6 +1,6 @@
 package com.abstractions;
 
-public class Cat extends Mammal {
+public class Cat implements Mammal {
 
 	public void drinkMilk() {
 		System.out.println("Cat: glup glup");
